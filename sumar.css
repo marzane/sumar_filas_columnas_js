@@ -1,0 +1,20 @@
+.tabla-sumar{
+    border-collapse: collapse;
+    margin-top: 0.5em;
+}
+
+.tabla-sumar td{
+    border: 3px solid black;
+    width: 2em;
+    height: 2em;
+    text-align: center;
+}
+
+.tabla-sumar tr:not(:last-child) td:not(:last-child){
+    background-color: salmon;
+}
+
+.tabla-sumar tr:not(:last-child) td:not(:last-child):hover{
+    background-color: brown;
+    color: antiquewhite;
+}
